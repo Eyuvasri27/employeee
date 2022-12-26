@@ -10,6 +10,7 @@ import (
 
 var Db *sql.DB
 
+// database func is used to connect with postgres
 func Database() {
 
 	var err error

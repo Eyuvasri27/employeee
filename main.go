@@ -14,7 +14,6 @@ func main() {
 	common.Database()
 	routers.Setemproute(e)
 	fmt.Println("employee details")
-	fmt.Println("em branch was added")
 	e.Logger.Fatal(e.Start(":1323"))
 
 }

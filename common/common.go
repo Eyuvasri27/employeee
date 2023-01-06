@@ -23,5 +23,7 @@ func Database() {
 	} else {
 		fmt.Println("db connected")
 		Db = db
+		// = DB
 	}
+
 }

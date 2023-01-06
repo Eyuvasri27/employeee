@@ -11,3 +11,15 @@ type Employee struct {
 type Employees struct {
 	Employees []Employee `json:"employees"`
 }
+
+type EmpUserDetail struct {
+	Id       int    `json:"id"`
+	Name     string `json:"name"`
+	Username string `json:"username"`
+	Password string `json:"password"`
+}
+
+type Logincheck struct {
+	Name     string `json:"name"`
+	Password string `json:"password"`
+}
